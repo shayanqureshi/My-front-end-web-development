@@ -1,0 +1,109 @@
+
+
+
+.name{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.fn-1 [type="text"]{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.ln-1 [type="text"]{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gender{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+.events{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cb-1 [type="checkbox"]{
+    margin-right: 5px;
+}
+
+.cb-2{
+    margin-right: 4.5px;
+}
+
+.cb-2 [type="checkbox"]{
+    margin-right: 5px;
+}
+
+.cb-3 [type="checkbox"]{
+    margin-right: 5px;
+}
+
+.cb-4 [type="checkbox"]{
+    margin-right: 5px;
+}
+
+.department{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.phone-number [type="text"]{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.email [type="text"]{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.address [type="text"]{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.dob {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button1{
+    background-color: grey;
+    color: black;
+}
+
+.button1:hover{
+    color: white;
+}
+
+.button2{
+    background-color: grey;
+    color: black;
+}
+
+.button2:hover{
+    color: white;
+}
+
+.btt{
+    color: black;
+    position: fixed;
+     bottom: 20px;
+     right: 20px;
+     padding: 20px;
+}

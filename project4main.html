@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Complex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: black;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        header::before{
+            content: "";
+            background-image: url(https://www.pandasecurity.com/en/mediacenter/src/uploads/2019/01/hero-21-1920x1080.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 110vh;
+            opacity: 0.3;
+            z-index: -1;
+            
+        }
+        .navigation{
+            display: flex;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        .listitem{
+            list-style: none;
+            margin:50px;
+            margin-top: 1px;
+            margin-left: 15px;
+        }
+
+        .listitem a{
+            text-decoration: none;
+            color: rgb(250, 202, 82);
+        }
+
+        .listitem a:hover{
+            color: white;
+        }
+        h4{
+            display: inline;
+            position: absolute;
+            top: 0;
+            right: 95px;
+            margin-top: 25px;
+            color: rgb(250, 202, 82);
+        }
+        img{
+            width: 80px;
+            height: 80px;
+           position: absolute;
+           top: 0;
+           right: 0;
+           margin-top: 5px;
+           margin-right: 5px;
+           border: 1.5px solid rgb(250, 202, 82);
+           border-radius: 2px;
+           transition: 0.5s ease-in 1;
+        }
+
+        section::before{
+            content: "";
+            background-image: url(https://www.intel.com/content/dam/www/public/us/en/images/education/RWD/boy-smiling-in-computer-lab-rwd.jpg.rendition.intel.web.576.324.jpg);
+            background-repeat: no-repeat; 
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            width: 40vw;
+            height: 40vh;
+            opacity: 0.8;
+            z-index: 1;
+          
+        }
+        .intro{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin-top: 170px;
+            flex-wrap: wrap;
+            animation-name: intro-ani;
+            animation-duration: 2s;
+            animation-timing-function: ease;}
+
+
+        @keyframes intro-ani{
+            50%{
+                color: transparent;
+            }
+        }
+
+        
+         
+        .heading{
+            margin-left: 20%;
+            font-size: 34px;
+        }
+
+        h2 span{
+            color: rgb(250, 202, 82);
+            animation-name: my-ani;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+        }
+
+        @keyframes my-ani{
+            50%{
+                color: transparent;
+            }
+        }
+
+        .heading-intro{
+            margin-left: 20%;
+            margin-right: 30%;
+            text-decoration: solid;
+            width: 450px;
+        }
+
+        
+        
+        button{
+            background-color: black;
+            color: black;
+            display: block;
+            width: 10vw;
+            height: 5vh;
+           margin-left: 20%;
+           border: 0px solid;
+           border-radius: 5px;
+        }
+
+        button a{
+            animation-name: button-a-ani;
+            animation-duration: 2s;
+            animation-timing-function: ease;    
+            text-decoration: none;
+            color: white;
+        }
+        @keyframes button-a-ani{
+           50%{
+               background-color: transparent;
+               color: transparent;
+           }
+       }
+
+       button:hover{
+           background-color: rgb(250, 202, 82);
+           color: black;
+           transition: all 0.5s ease-in-out;
+           cursor: pointer;
+       }
+
+       .cta{
+        animation-name: button-ani;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+       }
+
+       @keyframes button-ani{
+           50%{
+               background-color: transparent;
+               color: transparent;
+           }
+       }
+
+       .copyright{
+           position: absolute;
+           top: 105vh;
+           left: 0;
+           margin-left: 10px;
+           color: white;
+           font-weight: 100;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="listitem"><a href="project4main.html"> Home </a></li>
+                <li class="listitem"><a href="#"> About Us </a></li>
+                <li class="listitem"> <a href="project4contact.html" target="_blank"> Contact Us </a> </li>
+                <li class="listitem"> <a href="#">Help & Support </a> </li>
+            </ul>
+            <h4>Coding<br>Complex</h4><img src="/TCR WEB D/HTML/pics/cclogo.jfif" alt="Copmanylogo">
+        </nav>
+    </header>
+   <section class="intro">
+       <h2 class="heading">Welcome To <span>Coding Complex</span></h2>
+       <p class="heading-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut id earum sed excepturi animi sint ipsam distinctio, tenetur laboriosam necessitatibus eaque voluptates recusandae explicabo doloremque vero nisi deserunt et adipisci facilis modi in quae.</p>
+       <button class="cta"><a href="project4courses.html" target="_blank"> Know About Courses </a></button>
+   </section>
+
+   <footer class="copyright">
+    Copyright &copy; 2021 , All Rights Reserved.&nbsp; 
+  Designed & Organised By : Shayan Qureshi
+
+</footer>
+</body>
+</html>

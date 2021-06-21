@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="project1&2.css">
+</head>
+<style>
+    body{
+    background-image: url('https://www.marketing91.com/wp-content/uploads/2019/09/Types-of-market-Competition.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2100px;
+    background-position-y: -280px;
+    
+}
+
+</style>
+<body>
+    
+    <center><h1>Competition Registeration Form</h1></center>
+    <fieldset>
+        <legend class="name">Name</legend>
+        <label class="fn-1">Firstname :<input type="text" name="Firstname "></label>
+        <label class="ln-1"> Lastname :<input type="text" name="Lastname "></label>
+    </fieldset><br>
+    
+    <fieldset>
+        <legend class="gender">Gender</legend>
+        <label><input type="radio" name="gender" value="male">Male</label><br>
+        <label><input type="radio" name="gender" value="female">Female</label>
+    </fieldset> <br>
+
+    <fieldset>
+        <legend class="events">Events</legend>
+        <label class="cb-1"> <input type="checkbox" name="hobbies" value="dancing">Dancing :</label>
+        <select name="hobbies" > 
+            <option value="none">None</option>
+            <option value="solo">Solo</option>
+            <option value="duet">Duet</option>
+            <option value="group">Group</option>
+        </select>
+        <br>
+        <label class="cb-2"> <input type="checkbox" name="hobbies" value="singing">Singing :</label> 
+        <select name="hobbies" > 
+            <option value="none">None</option>
+            <option value="solo">Solo</option>
+            <option value="duet">Duet</option>
+            <option value="group">Group</option>
+            <option value="beat">Beat Boxing</option> 
+        </select><br>
+        <label class="cb-3"><input type="checkbox" name="hobbies" value="cricket">Cricket</label><br>
+        <label class="cb-4"><input type="checkbox" name="hobbies" value="football">Football </label> <br>
+
+    </fieldset><br>
+
+    <fieldset>
+        <legend class="department">Department </legend>
+        <select name="department">
+            <option value="NONE">None</option>
+            <option value="Computer">CSE</option>
+            <option value="Electrical">EEE</option>
+            <option value="Mechanical">ME</option>
+            <option value="Civil">CE</option>
+        </select>
+    </fieldset><br>
+
+    <fieldset>
+        <legend class="contact-info">Contact Info</legend>
+        <label class="phone-number" >Phone No. :<input type="text" name="Contact Info" ></label>
+        <label class="email">Email :<input type="text" name="Contact Info"></label>
+        <label class="address">Address :<input type="text" name="Contact Info" ></label>
+    </fieldset><br>
+
+    <fieldset>
+        <label class="dob" for="start">Date of Registeration :</label>
+        <input class="dob-1" type="date" name="Date of Registeration" placeholder="dd-mm-yyyy" min="01-01-2000">
+    </fieldset><br>
+
+    <input class="button1" type="submit" value="Submit"> &nbsp;&nbsp;
+
+    <input class="button2" type="reset" value="Reset">
+
+    <a href="#" class="btt">Back to Top</a>
+</body>
+</html>
